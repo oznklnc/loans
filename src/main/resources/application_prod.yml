@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+build:
+  version: 1.0
+
+loans:
+  message: Welcome to EzayBank Loans prod APIs
+  contactDetails:
+    name: Yvz yvz - Product Owner
+    email: yvz.yvz@example.com
+  onCallSupport:
+    - (777) 555-1234
+    - (777) 555-5678
