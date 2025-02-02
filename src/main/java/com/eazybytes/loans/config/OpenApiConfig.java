@@ -1,4 +1,4 @@
-package com.eazybytes.accounts.config;
+package com.eazybytes.loans.config;
 
 import io.swagger.v3.oas.annotations.ExternalDocumentation;
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
@@ -9,8 +9,8 @@ import org.springframework.context.annotation.Configuration;
 
 @OpenAPIDefinition(
         info = @Info(
-                title = "Accounts microservice REST API Documentation",
-                description = "EazyBank Accounts microservice REST API Documentation",
+                title = "Loans microservice REST API Documentation",
+                description = "EazyBank Loans microservice REST API Documentation",
                 version = "v1",
                 contact = @Contact(
                         name = "Madan Reddy",
@@ -23,7 +23,7 @@ import org.springframework.context.annotation.Configuration;
                 )
         ),
         externalDocs = @ExternalDocumentation(
-                description =  "EazyBank Accounts microservice REST API Documentation",
+                description =  "EazyBank Loans microservice REST API Documentation",
                 url = "https://www.eazybytes.com/swagger-ui.html"
         )
 )

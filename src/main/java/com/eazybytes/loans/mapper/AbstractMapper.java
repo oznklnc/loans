@@ -1,4 +1,4 @@
-package com.eazybytes.accounts.mapper;
+package com.eazybytes.loans.mapper;
 
 public abstract class AbstractMapper<E, D> {
 
